@@ -102,3 +102,58 @@ border: none;
 }
 
 /* banner style end */
+
+/* paillers part start */
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.paillers-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.paillers-container h2{
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.paillers-box{
+    display: flex;
+    gap: 30px;
+
+}
+
+.pailer{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.pailer h5{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+
+}
+.pailer p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
