@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,3 +8,97 @@
     text-decoration: none;
 }
 
+header{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 39px;
+    padding-bottom: 38px;
+}
+
+nav h2{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+
+.button-nav button{
+    color: rgba(0, 106, 80, 1);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 15px 30px 15px 30px;
+    border-radius: 9px;
+
+}
+/*  shared style */
+.btn-primary button{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+border-radius: 8px;
+background: rgba(0, 106, 80, 1);
+padding: 17px 34px 17px 34px;
+border: none;
+}
+
+
+/* Banner Style start */
+.banner-container{
+   background: rgba(198, 228, 214, 1);
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+}
+ 
+
+.banner{
+    padding-top: 117px;
+    padding-left: 59px;
+    padding-bottom: 117px;
+    padding-right: 64px;
+}
+
+.banner h5{
+   color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.banner h1{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    word-wrap: break-word;
+    margin-bottom: 28px
+}
+
+.banner-container img{
+   padding-right: 70px;
+   padding-bottom: 85px;
+}
+
+/* banner style end */
