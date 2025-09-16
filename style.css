@@ -171,3 +171,117 @@ main{
     line-height: 24px;
     letter-spacing: 0%;
 }
+.vision-container{
+    display: flex;
+    gap: 30px;
+}
+
+.vision{
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     padding: 30px;
+     border-radius: 8px;
+}
+
+.vision-tittle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+
+}
+
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+
+}
+
+.vision-btn button{
+   color: rgba(255, 255, 255, 1);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border:none;
+    padding: 10px 17px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    word-wrap: break-word;
+
+} 
+.box1{
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.btn1 button{
+    background: rgba(84, 144, 245, 1);
+}
+
+.box2{
+    background: rgba(198, 228, 214, 1);
+}
+
+.btn2 button{
+    background: rgba(9, 161, 92, 1);
+}
+
+.box3{
+    background: rgba(247, 235, 207, 1);
+}
+
+.btn3 button{
+    background: rgba(255, 194, 57, 1);
+}
+/* Comment-box Style start */
+.comment-box{
+    box-shadow: 0px 1px 50px 0px  rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+
+
+}
+.comments{
+    color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 13px;
+
+}
+
+.comment-tittle{
+    color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+margin-bottom: 5px;
+}
+
+.comment-description{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+    text-align: left;
+}
