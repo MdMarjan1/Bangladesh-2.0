@@ -113,7 +113,7 @@ main{
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.paillers-container h2{
+.pailor-head{
     margin-bottom: 32px;
     color: rgba(14, 14, 14, 1);
     font-family: Fira Sans;
@@ -156,4 +156,18 @@ main{
     line-height: 24px;
     letter-spacing: 0%;
 
+}
+
+/* vision part start */
+.vision-head{
+    margin-bottom: 90px;
+}
+
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
