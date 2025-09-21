@@ -421,6 +421,69 @@ border-radius: 8px;
     font-size: 16px;
     margin-bottom: 33px;
 }
+/* Donate part end */
+/* Input part start */
+.input-container{
+     background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+}
+.input-container h2{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 17px;
+}
 
-/* footer part start */
+.input-container p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+}
+
+.input-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.input-bar input[type=text]{
+    display: block;
+    width: 600px;
+    height: 55px;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 44px;
+
+
+}
+.input-bar button{
+    display: block;
+    width: px;
+    height: 54.5px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 17px 34px;
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 100%;
+    border: none;
+    border-radius: ;
+
+}
 
