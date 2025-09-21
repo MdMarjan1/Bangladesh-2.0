@@ -241,6 +241,7 @@ main{
 .btn3 button{
     background: rgba(255, 194, 57, 1);
 }
+/* vision part end */
 
 /* Comment-box Style start */
 .comment-box{
@@ -281,13 +282,6 @@ main{
     line-height: 24px;
 }
 /* comment part end */
-
-/* table part start
-
-table tr{
-    display: flex;
-    border-right: none;
-} */
 
 /* News Part Style */
 .news-div{
@@ -335,6 +329,7 @@ table tr{
     letter-spacing: 0%;
     margin-bottom: 45px;
 }
+/* news part end */
 
 
 /* Donate Part Style */
