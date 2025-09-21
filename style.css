@@ -28,7 +28,6 @@ nav h2{
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
-   
 }
 
 .button-nav button{
@@ -40,22 +39,22 @@ nav h2{
     letter-spacing: 0%;
     padding: 15px 30px 15px 30px;
     border-radius: 9px;
-
 }
+
 /*  shared style */
 .btn-primary button{
     color: rgba(255, 255, 255, 1);
-
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 100%;
-letter-spacing: 0%;
-border-radius: 8px;
-background: rgba(0, 106, 80, 1);
-padding: 17px 34px 17px 34px;
-border: none;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    padding: 17px 34px 17px 34px;
+    border: none;
 }
+/* shared style */
 
 .btn-primary button:hover{
    background-color: rgba(209, 241, 165, 0.631);
@@ -107,7 +106,6 @@ border: none;
    padding-right: 70px;
    padding-bottom: 85px;
 }
-
 /* banner style end */
 
 /* paillers part start */
@@ -128,20 +126,17 @@ main{
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
-
 }
 
 .paillers-box{
     display: flex;
     gap: 30px;
-
 }
 
 .pailer{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
     border-radius: 15px;
-
 }
 
 .pailer h5{
@@ -153,7 +148,6 @@ main{
     letter-spacing: 0%;
     margin-top: 24px;
     margin-bottom: 12px;
-
 }
 .pailer p{
     color: rgba(14, 14, 14, 0.7);
@@ -162,8 +156,8 @@ main{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-
 }
+/* pailler part end */
 
 /* vision part start */
 .vision-head{
@@ -198,7 +192,6 @@ main{
     letter-spacing: 0%;
     margin-top: 24px;
     margin-bottom: 12px;
-
 }
 
 .vision-description{
@@ -209,7 +202,6 @@ main{
     line-height: 24px;
     letter-spacing: 0%;
     margin-bottom: 24px;
-
 }
 
 .vision-btn button{
@@ -249,6 +241,7 @@ main{
 .btn3 button{
     background: rgba(255, 194, 57, 1);
 }
+
 /* Comment-box Style start */
 .comment-box{
     box-shadow: 0px 1px 50px 0px  rgba(0, 0, 0, 0.06);
@@ -286,9 +279,9 @@ main{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-  
 }
 /* comment part end */
+
 /* table part start */
 
 table tr{
@@ -300,14 +293,11 @@ table tr{
 .news-div{
     display: flex;
     gap: 38px;
-
-    /* box-shadow: 0px 46px 60px 0px; */
+/* box-shadow: 0px 46px 60px 0px; */
    background-color: whitesmoke;
    padding: 49px;
    border-radius: 15px;
    margin-bottom: 25px;
-
-   
 }
 
 .news-div img{
@@ -384,22 +374,19 @@ table tr{
     display: flex;
     gap:24px ;
     justify-content: space-evenly;
-   
-
 }
+
 .donate-box{
     color: rgba(14, 14, 14, 0.8);
-
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
-background-color: whitesmoke;
-padding: 40px;
-border-radius: 8px;
-
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 8px;
 }
 
 .donate-box:hover{
@@ -422,6 +409,7 @@ border-radius: 8px;
     margin-bottom: 33px;
 }
 /* Donate part end */
+
 /* Input part start */
 .input-container{
      background-color: rgba(198, 228, 214, 1);
@@ -468,9 +456,9 @@ border-radius: 8px;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 44px;
-
-
+    border-radius: 9px 0px 0px 9px;
 }
+
 .input-bar button{
     display: block;
     width: px;
@@ -483,7 +471,38 @@ border-radius: 8px;
     font-weight: 600;
     line-height: 100%;
     border: none;
-    border-radius: ;
+    border-radius: 0px 9px 9px 0px;
 
 }
+/* input part end */
+
+/* footer part start */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > h3{
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+footer hr{
+    width: 1122px;
+    margin-bottom: 32px;
+}
+
+.footer-img img{
+    margin-right: 15px;
+    padding-bottom: 50px;
+}
+
+/* footer part end */
 
