@@ -282,12 +282,12 @@ main{
 }
 /* comment part end */
 
-/* table part start */
+/* table part start
 
 table tr{
     display: flex;
     border-right: none;
-}
+} */
 
 /* News Part Style */
 .news-div{
